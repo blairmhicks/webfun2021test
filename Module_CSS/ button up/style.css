@@ -1,0 +1,26 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+.search {
+    color: seagreen;
+    background-color: seashell;
+    border: 1px solid seagreen;
+    width: 110px;
+    height: 25px;
+    border-radius: 25px;
+}
+.plus {
+    color: white;
+    background-color: seagreen;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid seagreen;
+}
+.create-account {
+    color: white;
+    background-color: blue;
+    width: 130px;
+    border: 2px solid black;
+    box-shadow: 5px 2px 2px black;
+}

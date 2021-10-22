@@ -1,0 +1,124 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Option M - Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!--Top Nav-->
+        <div class="topnav">
+            <div class="site-title">
+                <h1>Gaming<span id="purple-text">Dojo</span></h1>
+            </div>
+
+            <!--Payment-->
+            <div class="payment">
+                <select class="currency">
+                    <option>Euro €</option>
+                    <option>Dollar $</option>
+                </select>
+                <img src="images/cart-light.png" alt="shopping-cart">
+                <a id="item-number">0</a>
+                <img src="images/search-light.png" alt="search-light">
+            </div>
+        </div>
+
+        <!--Title-->
+        <div id="page-title"><b>Highlights</b></div>
+
+        <!--Main Content-->
+        <div class="maincontent">
+
+            <!--Highlights Carousel-->
+            <div class="highlights-carousel">
+                <img src="images/chevron-left.png" alt="chevron-left"
+                onclick="navigateLeft()">
+                <img class="carousel-images" 
+                src="images/stonepunk.png" alt="stonepunk">
+                <img src="images/chevron-left.png" alt="chevron-left" id="chevron-right"
+                onclick="navigateRight()">
+            </div>
+            <div class="carousel-line-section">
+                <div class="carousel-lines"></div>
+                <div id="carousel-line-purple"></div>
+                <div class="carousel-lines"></div>
+                <div class="carousel-lines"></div>
+            </div>
+
+            <!--Highlights Row-->
+            <div class="highlights-row">
+
+                <!--Cafe Neko highlight-->
+                <div class="highlight-thumbnail">
+                    <img class="thumbnail" src="images/cafe-neko.png" alt="cafe-neko-thumbnail">
+                    <div class="thumbnail-text">
+                        <p><b>Cafe Neko: Gold Edition</b></p>
+                        <img class="operating-systems" src="images/windows.png" alt="windows-icon">
+                        <img class="operating-systems" src="images/apple.png" alt="apple-icon">
+                    </div>
+                    <div class="pricing">
+                        <button class="discount-box"><b>-20%</b></button>
+                        <div class="price">
+                            <p class="old-price">€14.98</p>
+                            <b>€10.49</b>
+                        </div>
+                        <button class="buy" onclick="addToCart()"><b>Buy</b></button>
+                    </div>
+                </div>
+
+                <!--Pixel Ninjas 2 Highlight-->
+                <div class="highlight-thumbnail">
+                    <img class="thumbnail" src="images/pixel-ninjas-2.png" alt="pixel-ninjas-2-thumbnail"> 
+                    <div class="thumbnail-text">
+                        <p><b>Pixel Ninjas 2</b></p>
+                        <img class="operating-systems" src="images/windows.png" alt="windows-icon">
+                        <img class="operating-systems" src="images/apple.png" alt="apple-icon">
+                    </div>
+                    <div class="pricing">
+                        <button class="discount-box">
+                            <b>-10%</b>
+                        </button>
+                        <div class="price">
+                            <p class="old-price">€7.39</p>
+                            <b>€10.49</b>
+                        </div>
+                        <button class="buy" onclick="addToCart()"><b>Buy</b></button>
+                    </div>
+                </div>
+
+                <!--Stonepunk 10000 BCE Highlight-->
+                <div class="highlight-thumbnail">
+                    <img class="thumbnail" src="images/stonepunk.png" alt="stonpunk-thumbnail">
+                    <div class="thumbnail-text">
+                        <p><b>Stonepunk 10000 BCE</b></p>
+                        <img class="operating-systems" src="images/windows.png" alt="windows-icon">
+                        <img class="operating-systems" src="images/apple.png" alt="apple-icon">
+                        <img class="operating-systems" src="images/linux.png" alt="linux-icon" 
+                        onclick="alert('This game is supported on Linux')">
+                    </div>
+                    <div class="pricing">
+                        <button class="discount-box">
+                            <b>NEW</b>
+                        </button>
+                        <div class="price">
+                            <br>
+                            <b>€19.99</b>
+                        </div>
+                        <button class="buy" onclick="addToCart()"><b>Buy</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
+
+

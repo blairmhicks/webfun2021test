@@ -1,0 +1,169 @@
+
+.wrapper {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+
+}
+
+/* Top Nav */
+
+.topnav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid purple 15px;
+}
+
+
+.site-title {
+    height: 90px;
+    width: 200px;
+    color: white;
+}
+
+#purple-text {
+    color: purple;
+}
+    
+
+#page-title {
+    align-items: flex-start;
+    display:flex;
+    padding-left:14%;
+    background-color: lightgrey;
+}
+
+/* Payment Section */
+
+.payment {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#item-number {
+    color: white;
+    margin-left: 5px;
+    margin-right:40px;
+    text-decoration: underline;
+}
+
+.currency {
+    width:100px;
+    height:100px;
+    margin-right: 40px;
+}
+
+/*Main Content */
+
+.maincontent {
+    display: flex;
+    width:100%;
+    background-color: lightgrey;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Hightlights Carousel*/
+
+.highlights-carousel {
+    
+    height: 270px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-images {
+    height:inherit;
+}
+
+#chevron-right {
+    transform: rotate(180deg);
+}
+
+.carousel-line-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.carousel-lines {
+    height: 10px;
+    width:40px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#carousel-line-purple {
+    height: 10px;
+    width:40px;
+    background-color: purple;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+/*Highlights Row*/
+
+.highlights-row {
+    width: 900px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlight-thumbnail {
+    background-color: white;
+    width: 30%;
+    display: table-column;
+
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100px;
+}
+
+.thumbnail-text {
+    margin-left: 10px;
+}
+
+.operating-systems {
+    height:30px;
+}
+
+.discount-box {
+    background-color: purple;
+    color: white;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.price p {
+    margin:0;
+}
+
+.old-price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.buy {
+    background-color: green;
+    color: white;
+}
